@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 85);
+}
+
+.main{
+    height: 100vh;
+    width: 80vw;
+    margin-left: 10vw;
+    display:column;
+    text-align: center;
+    overflow: hidden;
+}
+
+#stage{
+    height: 30vw;
+    width: 30vw;
+    border: solid 2vh black;
+    box-shadow: 0.5em 0.5em 0.5em black;
+}
+
+#score, #bestScore{
+    margin-bottom: 3vh;
+    font-family: 'Russo One', sans-serif;
+    font-weight: 700;
+    color: rgb(146, 146, 146);
+    font-size: 5vh;
+}
+#score{
+    margin-top: 5vh;
+}
+
+
+
